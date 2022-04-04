@@ -1,2 +1,2 @@
 # fetch__practice
-promise management
+handling promises
