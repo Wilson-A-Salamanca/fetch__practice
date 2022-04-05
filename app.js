@@ -8,6 +8,10 @@ fetch(cards)
     const title = document.createElement("h2")
     const content = document.createElement("p")
 
+    card.classList.add("card")
+    title.classList.add("card__title")
+    content.classList.add("card__content")
+
     title.textContent = element.title
     content.textContent = element.body
 

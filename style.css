@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.card {
+    margin:5%;
+    padding: 5%;
+}
