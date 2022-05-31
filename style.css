@@ -4,14 +4,14 @@
 }
 
 .title {
-    background: #E09880;
+    background: #746E6C;
     text-align: center;
 }
 
 #cards {
     background-color: #8F8987;
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(2 , 1fr);
 }
 
 .card {
@@ -19,3 +19,9 @@
     margin:5%;
     padding: 5%;
 }
+
+@media (min-width: 1000px){
+   #cards {
+       grid-template-columns: repeat(4, 1fr);
+   }
+  }
